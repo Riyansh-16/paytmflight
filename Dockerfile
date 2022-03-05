@@ -1,7 +1,7 @@
 FROM openjdk
 
-
-ENTRYPOINT ["java","-jar","flight-2.0.jar"]
+COPY target/flight-2.0.jar /opt
+RUN java -jar flight-2.0.jar
 
 
 
