@@ -1,8 +1,7 @@
-FROM tomee
+FROM openjdk
 
 
-COPY target/flight-2.0.war   usr/local/tomee/webapps
-
+ENTRYPOINT ["java","-jar","flight-2.0.jar"]
 
 
 
