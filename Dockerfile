@@ -1,7 +1,7 @@
 FROM tomee
 
 
-COPY target/flight-2.0.jar   usr/local/tomee/webapps
+COPY target/flight-2.0.war   usr/local/tomee/webapps
 
 
 
